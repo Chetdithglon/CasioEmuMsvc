@@ -11,9 +11,9 @@ android {
     if (buildAsApplication) {
         namespace "com.tele.u8emulator"
     }
-    compileSdkVersion 27
+    compileSdkVersion 34
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion 27
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -24,7 +24,7 @@ android {
             //}
              cmake {
                  arguments "-DANDROID_CPP_FEATURES=rtti exceptions"
-                 abiFilters 'arm64-v8a','armeabi-v7a'
+                 abiFilters 'armeabi-v7a'
              }
         }
     }
