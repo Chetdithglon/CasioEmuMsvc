@@ -11,10 +11,10 @@ android {
     if (buildAsApplication) {
         namespace "com.tele.u8emulator"
     }
-    compileSdkVersion 34
+    compileSdkVersion 27
     defaultConfig {
-        minSdkVersion 24
-        targetSdkVersion 34
+        minSdkVersion 21
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         externalNativeBuild {
